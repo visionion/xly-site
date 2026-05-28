@@ -667,3 +667,13 @@ body {
   letter-spacing: 0.02em;
   opacity: 0.55;
 }
+
+/* Branded app icon in hero */
+.hero-app-icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 28px;
+  margin: 0 auto 1.5rem;
+  display: block;
+  box-shadow: 0 20px 60px -15px rgba(56, 189, 248, 0.55);
+}
