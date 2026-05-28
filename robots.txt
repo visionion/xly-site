@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xly.visionion.dev/sitemap.xml
