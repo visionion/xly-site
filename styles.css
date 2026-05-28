@@ -393,6 +393,18 @@ body {
   margin-bottom: 1.25rem;
 }
 
+/* Installing / Feedback */
+.requirements-section {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.requirements-section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
 /* Perfect For */
 .perfect-section {
   margin-bottom: 3rem;
