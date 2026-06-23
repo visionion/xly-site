@@ -46,6 +46,15 @@
   <!-- End Cloudflare Web Analytics -->
 
   <script>
+    // Record the download in Google Analytics (sent via beacon, survives the redirect).
+    if (typeof gtag === 'function') {
+      gtag('event', 'file_download', {
+        app_name: 'Xly',
+        file_name: 'Xly.dmg',
+        file_extension: 'dmg',
+        link_url: '/Xly.dmg'
+      });
+    }
     setTimeout(function () { window.location.href = "/Xly.dmg"; }, 800);
   </script>
 </body>
